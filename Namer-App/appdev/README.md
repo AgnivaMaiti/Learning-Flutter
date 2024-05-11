@@ -1,16 +1,43 @@
-# appdev
+# Namer-App
 
-A new Flutter project.
+A simple Flutter application that generates random word pairs and allows users to mark their favorites. Made by following the official flutter codelab.
 
-## Getting Started
+## Overview
 
-This project is a starting point for a Flutter application.
+Namer App is a mobile application built using Flutter and Provider package. It generates random word pairs and lets users save their favorite pairs. The app consists of two main screens: the generator screen and the favorites screen. Users can switch between these screens using the navigation rail.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Random Word Pair Generation**: The app generates random word pairs using the English Words package.
+- **Favorite Word Pair Management**: Users can mark their favorite word pairs and view them on the favorites screen.
+- **Responsive Layout**: The app's layout adapts to different screen sizes, providing an optimal user experience on both mobile and tablet devices.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Installation
+
+1. Clone this repository to your local machine:
+
+   ```bash
+   git clone https://github.com/your-username/Namer-App.git
+   ```
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd Namer-App
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   flutter pub get
+   ```
+
+4. Run the app:
+
+   ```bash
+   flutter run
+   ```
+
+## Contributing
+
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
